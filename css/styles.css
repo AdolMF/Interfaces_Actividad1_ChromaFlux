@@ -1,0 +1,31 @@
+/*Hoja de css con los estilos genericos que aplicaran a toda la web*/
+
+:root {
+    --color-1: #2B2B2D;
+    --color-2: #C0C3C7;
+    --color-3: #FFD300;
+    --color-4: #F4F5F7;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:  'Saira','Microma',sans-serif;
+    background-color: var(--color-1);
+    background-image: url(../assets/img/background.png);
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+}
+
+h1 {
+    font-family:  'Microma','Saira',sans-serif;
+}
